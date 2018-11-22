@@ -2,11 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SuspiciusApp.Views.LoginPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <StackLayout Orientation="Vertical" VerticalOptions="Center">
+        <Image Source="cinema.png" />
+        <Entry x:Name="Usuario" Placeholder="{tdr:Translate Usuario}" />
+        <Entry x:Name="Password" Placeholder="{tdr:Translate Contrasena}" IsPassword="True" />
+        <Button Text="{tdr:Translate Ingresar}" Clicked="Ingresar_Click" />
+    </StackLayout>
 </ContentPage>
