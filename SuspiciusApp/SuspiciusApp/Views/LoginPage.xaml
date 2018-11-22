@@ -2,11 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              NavigationPage.HasNavigationBar="False"
-             x:Class="SuspiciusApp.Views.LoginPage">
-    <StackLayout Orientation="Vertical" VerticalOptions="Center" Padding="3">
-        <Image Source="login.png" />
-        <Entry x:Name="Usuario" Placeholder="Usuario" />
-        <Entry x:Name="Password" Placeholder="Contraseña" IsPassword="True" />
-        <Button Text="Ingresar"  Clicked="Ingresar_Click" />
-    </StackLayout>
+             x:Class="SuspiciusApp.Views.LoginPage"
+             BackgroundColor="#157AC3">
+             
+    <ContentPage.Content>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            
+            <StackLayout Grid.Row="1" Padding="30,20" >
+                <Image Source="login.png" />
+                <Entry x:Name="Usuario" Placeholder="Usuario" PlaceholderColor="white"/>
+                <Entry x:Name="Password" Placeholder="Contraseña" IsPassword="True" />
+                <Button Text="Ingresar"  Clicked="Ingresar_Click"  BorderRadius="20" Text=""/>
+            </StackLayout>
+                
+        </Grid>
+    </ContentPage.Content>
 </ContentPage>

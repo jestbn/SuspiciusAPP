@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SuspiciusApp.Views.ListarPage">
+             
+    <ContentPage.Content Orientation="Vertical" VerticalOptions="Center" Padding="20,30">
+        <StackLayout>
+            <Button Text="Ingresar Sospecha" BackgroundColor=""/>
+            <Button Text="Ver sopechas cercanas"/>
+            <Button Text="Eliminar sospecha"/>
+            <Button Text="Mi cuenta"/>
+            <Button Text="Ubicacion"/>
+            <Button Text="Rate el app"/>
+            <Button Text="Salir"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
