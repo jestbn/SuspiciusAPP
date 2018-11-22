@@ -16,5 +16,10 @@ namespace SuspiciusApp.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Ingresar_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
