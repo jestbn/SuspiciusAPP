@@ -18,7 +18,7 @@
                 <Image Source="login.png" />
                 <Entry x:Name="Usuario" Placeholder="Usuario" PlaceholderColor="white"/>
                 <Entry x:Name="Password" Placeholder="Contraseña" IsPassword="True" />
-                <Button Text="Ingresar"  Clicked="Ingresar_Click"  BorderRadius="20" Text=""/>
+                <Button Text="Ingresar"  Clicked="Ingresar_Click"  BorderRadius="20" />
             </StackLayout>
                 
         </Grid>

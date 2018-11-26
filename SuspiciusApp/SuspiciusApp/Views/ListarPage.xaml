@@ -5,7 +5,7 @@
              
     <ContentPage.Content Orientation="Vertical" VerticalOptions="Center" Padding="20,30">
         <StackLayout>
-            <Button Text="Ingresar Sospecha" BackgroundColor=""/>
+            <Button Text="Ingresar Sospecha" BackgroundColor="Blue"/>
             <Button Text="Ver sopechas cercanas"/>
             <Button Text="Eliminar sospecha"/>
             <Button Text="Mi cuenta"/>
