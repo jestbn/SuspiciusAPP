@@ -58,8 +58,8 @@ namespace SuspiciusApp.Views
 
             if (request.IsSuccessStatusCode)
             {
-                var responseJson = await request.Content.ReadAsStringAsync();
-                var respuesta = JsonConvert.DeserializeObject<Respuesta>(responseJson);
+                //var responseJson = await request.Content.ReadAsStringAsync();
+                //var respuesta = JsonConvert.DeserializeObject<Respuesta>(responseJson);
 
                 //if (respuesta.EsPermitido)
                 //{

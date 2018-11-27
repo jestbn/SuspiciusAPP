@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SuspiciusApp.Views.Lista2">
+    <ListView x:Name="listEvento" HasUnevenRows="True" ItemSelected="ListPeliculas_ItemSelected">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal" Margin="15">
+                        <Image Source="{Binding Foto_evento}" WidthRequest="180" HeightRequest="160"/>
+                        <StackLayout Orientation="Vertical">
+                            <Label Text="{Binding Nom_evento}" />
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Día-hora :" />
+                                <Label Text="{Binding Hora}" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Lugar :" />
+                                <Label Text="{Binding Lugar}" />
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Descripcion :" />
+                                <Label Text="{Binding Descripcion}" />
+                            </StackLayout>
+                            
+                        </StackLayout>
+                    </StackLayout>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
