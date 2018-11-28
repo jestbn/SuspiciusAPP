@@ -1,4 +1,5 @@
-﻿using System;
+﻿//using Xamarin.Forms.PlatformConfiguration.Android.App;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,7 +20,7 @@ namespace SuspiciusApp.Views
 
         private async void Button_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync( new ListarPage());
+            await Navigation.PushAsync( new Lista2());
         }
 
         private async void Button_Clicked_1(object sender, EventArgs e)
@@ -31,5 +32,11 @@ namespace SuspiciusApp.Views
         {
              Navigation.PushAsync(new Ubicacion());
         }
+
+        private void Button_Clicked_3(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.GetCurrentProcess().CloseMainWindow();
+        }
+
     }
 }

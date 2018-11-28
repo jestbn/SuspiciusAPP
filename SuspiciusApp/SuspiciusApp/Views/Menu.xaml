@@ -11,8 +11,8 @@
             <Button Text="Listar" Clicked="Button_Clicked"/>
             <Button Text="Mi cuenta" Clicked="Button_Clicked_1"/>
             <Button Text="Ubicacion" Clicked="Button_Clicked_2"/>
-            <Button Text="Rate el app"/>
-            <Button Text="Salir"/>
+            <!-- <Button Text="Rate el app"/> -->
+            <Button Text="Salir" Clicked="Button_Clicked_3"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

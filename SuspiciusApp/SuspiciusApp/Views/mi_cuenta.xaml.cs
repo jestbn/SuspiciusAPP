@@ -18,6 +18,7 @@ namespace SuspiciusApp.Views
 
 		public Mi_cuenta()
 		{
+            InitializeComponent();
             CargarUser();
         }
         private async void CargarUser()
