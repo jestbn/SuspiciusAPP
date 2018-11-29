@@ -7,6 +7,7 @@ using System.Net.Http;
 using SuspiciusApp.Model;
 using Newtonsoft.Json;
 
+
 namespace SuspiciusApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]

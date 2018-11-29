@@ -6,7 +6,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
-
+using SuspiciusApp.Resources;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -38,7 +38,7 @@ namespace SuspiciusApp.Views
             }
             else
             {
-                await DisplayAlert("Lo sentimos!", "Ha ocurrido un error de comunicacion", "OK");
+                await DisplayAlert("¡Lo Sentimos!", "Ha ocurrido un error de comunicacion", "OK");
             }
         }
 

@@ -123,8 +123,23 @@
   <data name="Contrasena" xml:space="preserve">
     <value>Password</value>
   </data>
+  <data name="Eleventofuereportadoconel123" xml:space="preserve">
+    <value>The event was reported with 123</value>
+  </data>
+  <data name="Evento" xml:space="preserve">
+    <value>Event</value>
+  </data>
+  <data name="Haocurridounerrordecomunicacion" xml:space="preserve">
+    <value>A communication error has occurred</value>
+  </data>
   <data name="Ingresar" xml:space="preserve">
     <value>Log In</value>
+  </data>
+  <data name="LoSentimos" xml:space="preserve">
+    <value>We're sorry</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Ok</value>
   </data>
   <data name="Usuario" xml:space="preserve">
     <value>Username</value>

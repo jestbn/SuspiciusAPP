@@ -135,4 +135,7 @@
   <data name="ValidacionUsuario" xml:space="preserve">
     <value>Debe ingresar el nombre de usuario</value>
   </data>
+  <data name="Evento" xml:space="preserve">
+    <value>Evento</value>
+  </data>
 </root>
