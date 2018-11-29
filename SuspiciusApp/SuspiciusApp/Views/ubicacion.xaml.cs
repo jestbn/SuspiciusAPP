@@ -16,7 +16,7 @@ namespace SuspiciusApp.Views
 		public Ubicacion ()
 		{
 			InitializeComponent ();
-            try
+    /*        try
             {
                 MyMap.MoveToRegion(
                     MapSpan.FromCenterAndRadius(
@@ -27,7 +27,7 @@ namespace SuspiciusApp.Views
                 DisplayAlert("Tenemos problemas", "Intenta mas tarde :) " + e.ToString(), "OK!");
                 Navigation.PushAsync(new LoginPage());
                 // throw;
-            }
+            } */
             
             //var map = new Map(MapSpan.FromCenterAndRadius(
             //    new Position(6.244364, -75.560773),
@@ -37,5 +37,10 @@ namespace SuspiciusApp.Views
             //            VerticalOptions = LayoutOptions.FillAndExpand
             //        };
 		}
-	}
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Lista2());
+        }
+    }
 }

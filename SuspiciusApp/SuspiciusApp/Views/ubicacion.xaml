@@ -3,11 +3,20 @@
              xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SuspiciusApp.Views.Ubicacion">
-    <StackLayout VerticalOptions="StartAndExpand" Padding="30">
+    <!--<StackLayout VerticalOptions="StartAndExpand" Padding="30">
         <maps:Map WidthRequest="320" HeightRequest="200"
             x:Name="MyMap"
             IsShowingUser="true"
             MapType="Hybrid"
         />
-    </StackLayout>
+    </StackLayout>-->
+    <ContentPage.Content>
+        <StackLayout  Padding="10">
+            <Image Source="https://lacasadelasospecha.files.wordpress.com/2013/02/imagen-11.png?w=748">
+
+            </Image>
+            <Button Text="Volver" Clicked="Button_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+
 </ContentPage>

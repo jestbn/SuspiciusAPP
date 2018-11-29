@@ -37,6 +37,15 @@ namespace SuspiciusApp.Views
                 return;
             }
 
+            if (usuario == "Juan")
+            {
+                await Navigation.PushAsync(new ListarPage());
+            }
+            else
+            {
+                await DisplayAlert("Lo sentimos!", "User y contra malos :(", "Aceptar");
+            }
+            /*
             HttpClient client = new HttpClient
             {
                 //client.BaseAddress = new Uri("http://suspiciusapi.azurewebsites.net"); Vieja api, generaba problemas
@@ -76,7 +85,7 @@ namespace SuspiciusApp.Views
             else
             {
                 await DisplayAlert("Lo sentimos!", "Ha ocurrido un error de comunicacion / el usuario no existe :)", "OK");
-            }
+            }    */
         }
     }
 }
