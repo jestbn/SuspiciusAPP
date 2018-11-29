@@ -5,7 +5,7 @@
              x:Class="SuspiciusApp.Views.LoginPage"
              BackgroundColor="#157AC3"
              xmlns:tdr="clr-namespace:SuspiciusApp.Helpers">
-
+             
     <ContentPage.Content>
 
         <Grid>
