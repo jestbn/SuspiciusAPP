@@ -12,15 +12,15 @@
                         <StackLayout Orientation="Vertical">
                             <Label Text="{Binding Nom_evento}" />
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="Día-hora :" />
+                                <Label Text="{tdr:Translate Día-hora}" />
                                 <Label Text="{Binding Hora}" />
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="Lugar :" />
+                                <Label Text="{tdr:Translate Lugar}" />
                                 <Label Text="{Binding Lugar}" />
                             </StackLayout>
                             <StackLayout Orientation="Horizontal">
-                                <Label Text="Descripcion :" />
+                                <Label Text="{tdr:Translate Descripcion} " />
                                 <Label Text="{Binding Descripcion}" />
                             </StackLayout>
                             

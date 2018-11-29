@@ -138,4 +138,49 @@
   <data name="Evento" xml:space="preserve">
     <value>Evento</value>
   </data>
+  <data name="Haocurridounerrordecomunicacion" xml:space="preserve">
+    <value>Erro de comunicação</value>
+  </data>
+  <data name="LoSentimos" xml:space="preserve">
+    <value>Lamentamos</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Eleventofuereportadoconel123" xml:space="preserve">
+    <value>O evento foi relatado com 123!</value>
+  </data>
+  <data name="Día-hora" xml:space="preserve">
+    <value>Dia-Hora!</value>
+  </data>
+  <data name="Lugar" xml:space="preserve">
+    <value>Local</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="Correo" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Listar" xml:space="preserve">
+    <value>Para Lista</value>
+  </data>
+  <data name="Mi cuenta" xml:space="preserve">
+    <value>Minha Conta</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="Salir" xml:space="preserve">
+    <value>Saia.</value>
+  </data>
+  <data name="Telefono" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="Ubicacion" xml:space="preserve">
+    <value>Local:</value>
+  </data>
+  <data name="Validación" xml:space="preserve">
+    <value>Validação</value>
+  </data>
 </root>

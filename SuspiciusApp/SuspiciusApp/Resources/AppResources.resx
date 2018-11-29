@@ -117,11 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AppResources" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>AppResources.resx;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
   <data name="Cartelera" xml:space="preserve">
     <value>Poster</value>
   </data>
   <data name="Contrasena" xml:space="preserve">
     <value>Password</value>
+  </data>
+  <data name="Correo" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="Descripcion" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="Día-hora" xml:space="preserve">
+    <value>Day-Hour</value>
   </data>
   <data name="Eleventofuereportadoconel123" xml:space="preserve">
     <value>The event was reported with 123</value>
@@ -135,11 +148,33 @@
   <data name="Ingresar" xml:space="preserve">
     <value>Log In</value>
   </data>
+  <data name="Listar" xml:space="preserve">
+    <value>To list</value>
+  </data>
   <data name="LoSentimos" xml:space="preserve">
     <value>We're sorry</value>
   </data>
+  <data name="Lugar" xml:space="preserve">
+    <value>Place</value>
+  </data>
+  <data name="Mi cuenta" xml:space="preserve">
+    <value>My Account
+</value>
+  </data>
+  <data name="Nombre" xml:space="preserve">
+    <value>Name</value>
+  </data>
   <data name="OK" xml:space="preserve">
     <value>Ok</value>
+  </data>
+  <data name="Salir" xml:space="preserve">
+    <value>Go out</value>
+  </data>
+  <data name="Telefono" xml:space="preserve">
+    <value>Telephone</value>
+  </data>
+  <data name="Ubicacion" xml:space="preserve">
+    <value>Location</value>
   </data>
   <data name="Usuario" xml:space="preserve">
     <value>Username</value>
@@ -149,5 +184,8 @@
   </data>
   <data name="ValidacionUsuario" xml:space="preserve">
     <value>You must enter the username</value>
+  </data>
+  <data name="Validación" xml:space="preserve">
+    <value>Validation</value>
   </data>
 </root>
